@@ -32,11 +32,11 @@ function cargarProductosCarrito() {
                     <h3>${producto.titulo}</h3>
                 </div>
                 <div class="carrito-producto-cantidad">
-                    <small>Cantidad</small>
+                    <small>Quantidade</small>
                     <p>${producto.cantidad}</p>
                 </div>
                 <div class="carrito-producto-precio">
-                    <small>Precio</small>
+                    <small>Preço</small>
                     <p>$${producto.precio}</p>
                 </div>
                 <div class="carrito-producto-subtotal">
@@ -73,7 +73,7 @@ function actualizarBotonesEliminar() {
 
 function eliminarDelCarrito(e) {
     Toastify({
-        text: "Producto eliminado",
+        text: "Produto eliminado",
         duration: 3000,
         close: true,
         gravity: "top", // `top` or `bottom`
@@ -106,13 +106,13 @@ botonVaciar.addEventListener("click", vaciarCarrito);
 function vaciarCarrito() {
 
     Swal.fire({
-        title: '¿Estás seguro?',
-        icon: 'question',
-        html: `Se van a borrar ${productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0)} productos.`,
+        title: 'Tem certeza?',
+        icon: 'questao',
+        html: `Eles serão excluídos ${productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0)} Produtos.`,
         showCancelButton: true,
         focusConfirm: false,
-        confirmButtonText: 'Sí',
-        cancelButtonText: 'No'
+        confirmButtonText: 'Sim',
+        cancelButtonText: 'Nao'
     }).then((result) => {
         if (result.isConfirmed) {
             productosEnCarrito.length = 0;

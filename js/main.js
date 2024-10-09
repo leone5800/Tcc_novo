@@ -33,7 +33,7 @@ function cargarProductos(productosElegidos) {
             <div class="producto-detalles">
                 <h3 class="producto-titulo">${producto.titulo}</h3>
                 <p class="producto-precio">$${producto.precio}</p>
-                <button class="producto-agregar" id="${producto.id}">Agregar</button>
+                <button class="producto-agregar" id="${producto.id}">Comprar</button>
             </div>
         `;
 
@@ -56,7 +56,7 @@ botonesCategorias.forEach(boton => {
             const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
             cargarProductos(productosBoton);
         } else {
-            tituloPrincipal.innerText = "Todos los productos";
+            tituloPrincipal.innerText = "Todos os Produtos";
             cargarProductos(productos);
         }
 
@@ -85,7 +85,7 @@ if (productosEnCarritoLS) {
 function agregarAlCarrito(e) {
 
     Toastify({
-        text: "Producto agregado",
+        text: "Produtos Comprados",
         duration: 3000,
         close: true,
         gravity: "top", // `top` or `bottom`

@@ -1,13 +1,13 @@
 [
     {
         "id": "abrigo-01",
-        "titulo": "Abrigo 01",
+        "titulo": "Biquinis azul claro",
         "imagen": "./img/claro.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "BIQUINIS",
+            "id": "Biquinis"
         },
-        "precio": 1000
+        "precio": 156
     },
     {
         "id": "abrigo-02",
@@ -15,9 +15,9 @@
         "imagen": "./img/Screenshot_20240322-111223~3.png",
         "categoria": {
             "nombre": "Abrigos",
-            "id": "abrigos"
+            "id": "Biquinis"
         },
-        "precio": 1000
+        "precio": 156
     },
     {
         "id": "abrigo-03",
@@ -25,29 +25,29 @@
         "imagen": "./img/Screenshot_20240322-111237~3.png",
         "categoria": {
             "nombre": "Abrigos",
-            "id": "abrigos"
+            "id": "Biquinis"
         },
-        "precio": 1000
+        "precio": 156
     },
     {
         "id": "abrigo-04",
         "titulo": "Abrigo 04",
         "imagen": "./img/Screenshot_20240322-111240~3.png",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "PROMOÇÕES",
+            "id": "Promoções"
         },
-        "precio": 1000
+        "precio": 120
     },
     {
         "id": "abrigo-05",
         "titulo": "Abrigo 05",
         "imagen": "./img/Screenshot_20240322-111248~3.png",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "NOVOS BIQUINIS",
+            "id": "Novos Biquinis"
         },
-        "precio": 1000
+        "precio": 189
     },
     {
         "id": "camiseta-01",
@@ -55,9 +55,9 @@
         "imagen": "./img/Screenshot_20240322-111254~3.png",
         "categoria": {
             "nombre": "Camisetas",
-            "id": "camisetas"
+            "id": "Biquinis"
         },
-        "precio": 1000
+        "precio": 200
     },
     {
         "id": "camiseta-02",
@@ -65,9 +65,9 @@
         "imagen": "./img/Screenshot_20240322-111256~3.png",
         "categoria": {
             "nombre": "Camisetas",
-            "id": "camisetas"
+            "id": "Biquinis"
         },
-        "precio": 1000
+        "precio": 200
     },
     {
         "id": "camiseta-03",
@@ -75,7 +75,7 @@
         "imagen": "./img/Screenshot_20240322-111306~3.png",
         "categoria": {
             "nombre": "Camisetas",
-            "id": "camisetas"
+            "id": "Biquinis"
         },
         "precio": 1000
     },
@@ -85,7 +85,7 @@
         "imagen": "./img/Screenshot_20240322-111309~3.png",
         "categoria": {
             "nombre": "Camisetas",
-            "id": "camisetas"
+            "id": "Biquinis"
         },
         "precio": 1000
     },
@@ -95,7 +95,7 @@
         "imagen": "./img/Screenshot_20240322-111312~3.png",
         "categoria": {
             "nombre": "Camisetas",
-            "id": "camisetas"
+            "id": "Biquinis"
         },
         "precio": 1000
     },
@@ -105,7 +105,7 @@
         "imagen": "./img/Screenshot_20240322-111314~3.png",
         "categoria": {
             "nombre": "Camisetas",
-            "id": "camisetas"
+            "id": "Biquinis"
         },
         "precio": 1000
     },
