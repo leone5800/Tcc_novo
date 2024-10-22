@@ -7,8 +7,9 @@
             "nombre": "BIQUINIS",
             "id": "Biquinis"
         },
-        "precio": 156
+        "precio": 156.00
     },
+    
     {
         "id": "abrigo-02",
         "titulo": "Biquini Rosa Brilhante",
@@ -42,7 +43,7 @@
     {
         "id": "abrigo-05",
         "titulo": "Biquini Rgb",
-        "imagen": "./img/IMG-20241022-WA0015.jpg",
+        "imagen": "./img/IMG-20241022-WA0032.jpg",
         "categoria": {
             "nombre": "NOVOS BIQUINIS",
             "id": "Novos Biquinis"
@@ -71,8 +72,8 @@
     },
     {
         "id": "camiseta-03",
-        "titulo": "Camiseta 03",
-        "imagen": "./img/Screenshot_20240322-111306~3.png",
+        "titulo": "Biquini Rosa",
+        "imagen": "./img/IMG-20241022-WA0020.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "Biquinis"
@@ -81,8 +82,8 @@
     },
     {
         "id": "camiseta-04",
-        "titulo": "Camiseta 04",
-        "imagen": "./img/Screenshot_20240322-111309~3.png",
+        "titulo": "Biquini de Coco",
+        "imagen": "./img/IMG-20241022-WA0021.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "Biquinis"
@@ -91,8 +92,8 @@
     },
     {
         "id": "camiseta-05",
-        "titulo": "Camiseta 05",
-        "imagen": "./img/Screenshot_20240322-111312~3.png",
+        "titulo": "Biquini roxo claro",
+        "imagen": "./img/IMG-20241022-WA0022.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "Biquinis"
@@ -101,63 +102,12 @@
     },
     {
         "id": "camiseta-06",
-        "titulo": "Camiseta 06",
-        "imagen": "./img/Screenshot_20240322-111314~3.png",
+        "titulo": "Camiseta de praia",
+        "imagen": "./img/IMG-20241022-WA0036.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "Biquinis"
         },
         "precio": 1000
-    },
-    {
-        "id": "camiseta-07",
-        "titulo": "Camiseta 07",
-        "imagen": "./img/Screenshot_20240322-111317~3.png",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
-        },
-        "precio": 1000
-    },
-    {
-        "id": "camiseta-07",
-        "titulo": "Camiseta 07",
-        "imagen": "./img/",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
-        },
-        "precio": 1000
-    },
-    {
-        "id": "camiseta-07",
-        "titulo": "Camiseta 07",
-        "imagen": "./img/",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
-        },
-        "precio": 1000
-    },
-    {
-        "id": "camiseta-07",
-        "titulo": "Camiseta 07",
-        "imagen": "./img/Screenshot_20240322-111317~3.png",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
-        },
-        "precio": 1000
-    },
-    {
-        "id": "camiseta-07",
-        "titulo": "Camiseta 07",
-        "imagen": "./img/Screenshot_20240322-111317~3.png",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
-        },
-        "precio": 1000
     }
-    
 ]
