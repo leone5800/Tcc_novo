@@ -41,8 +41,8 @@
     },
     {
         "id": "abrigo-05",
-        "titulo": "bquini roxo com pintas Rosa",
-        "imagen": "./img/Screenshot_20240322-111248~3.png",
+        "titulo": "Biquini Rgb",
+        "imagen": "./img/IMG-20241022-WA0015.jpg",
         "categoria": {
             "nombre": "NOVOS BIQUINIS",
             "id": "Novos Biquinis"
@@ -51,8 +51,8 @@
     },
     {
         "id": "camiseta-01",
-        "titulo": "Camiseta 01",
-        "imagen": "./img/Screenshot_20240322-111254~3.png",
+        "titulo": "Biquini azul com folhas",
+        "imagen": "./img/IMG-20241022-WA0016.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "Biquinis"
@@ -61,8 +61,8 @@
     },
     {
         "id": "camiseta-02",
-        "titulo": "Camiseta 02",
-        "imagen": "./img/Screenshot_20240322-111256~3.png",
+        "titulo": "Biquini do whatsapp",
+        "imagen": "./img/IMG-20241022-WA0017.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "Biquinis"
