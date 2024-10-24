@@ -124,3 +124,30 @@ function actualizarNumerito() {
     let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
     numerito.innerText = nuevoNumerito;
 }
+
+function cargarProductos(productosElegidos) {
+    const contenedorProductos = document.querySelector("#contenedor-productos");
+    contenedorProductos.innerHTML = ""; // Limpa os produtos antigos
+
+    productosElegidos.forEach((producto, index) => {
+        const div = document.createElement("div");
+        div.classList.add("producto");
+        div.innerHTML = `
+            <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
+            <div class="producto-detalles">
+                <h3 class="producto-titulo">${producto.titulo}</h3>
+                <p class="producto-precio">R$${producto.precio}</p>
+                <button class="producto-agregar" id="${producto.id}">Comprar</button>
+            </div>
+        `;
+
+        // Adiciona um pequeno atraso para cada produto aparecer suavemente
+        setTimeout(() => {
+            div.classList.add("aparecer");
+        }, index * 100); // Atraso de 100ms entre cada produto
+
+        contenedorProductos.append(div);
+    });
+
+    actualizarBotonesAgregar();
+}

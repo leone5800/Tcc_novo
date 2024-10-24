@@ -186,6 +186,60 @@ main {
     color: var(--clr-white);
 }
 
+.contenedor-productos .producto {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.contenedor-productos .producto.aparecer {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.boton-categoria.active {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #008aed;
+}
+
+.boton-categoria {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.boton-menu.active::before,
+.boton-menu.active::after {
+    display: none;
+}
+
+.boton-menu {
+    background-color: transparent;
+    border: 0;
+    color: var(--clr-white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    font-size: .85rem;
+    width: 100%;
+    border-top-left-radius: 1rem; /* Bordas arredondadas sempre */
+    border-bottom-left-radius: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+
+.boton-menu.active {
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+    border-top-left-radius: 1rem; /* Manter bordas arredondadas quando ativo */
+    border-bottom-left-radius: 1rem;
+}
+
+.boton-menu:hover {
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+}
+
 
 /** CARRITO **/
 
