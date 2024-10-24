@@ -18,7 +18,7 @@
             "nombre": "Abrigos",
             "id": "Biquinis"
         },
-        "precio": 156
+        "precio": 156.00
     },
     {
         "id": "abrigo-03",
@@ -28,7 +28,7 @@
             "nombre": "Abrigos",
             "id": "Biquinis"
         },
-        "precio": 156
+        "precio": 156.00
     },
     {
         "id": "abrigo-04",
@@ -38,7 +38,7 @@
             "nombre": "PROMOÇÕES",
             "id": "Promoções"
         },
-        "precio": 120
+        "precio": 120.00
     },
     
     {
@@ -49,17 +49,17 @@
             "nombre": "Camisetas",
             "id": "Biquinis"
         },
-        "precio": 200
+        "precio": 200.00
     },
     {
         "id": "camiseta-03",
         "titulo": "Biquini Rosa",
         "imagen": "./img/IMG-20241022-WA0020.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "Biquinis"
+            "nombre": "Novos Biquinis",
+            "id": "Novos Biquinis"
         },
-        "precio": 1000
+        "precio": 190.00
     },
     {
         "id": "camiseta-04",
@@ -69,7 +69,7 @@
             "nombre": "Camisetas",
             "id": "Biquinis"
         },
-        "precio": 1000
+        "precio": 125.00
     },
     {
         "id": "camiseta-06",
@@ -79,6 +79,36 @@
             "nombre": "Camisetas",
             "id": "Biquinis"
         },
-        "precio": 1000
+        "precio": 179.00
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Camiseta de praia",
+        "imagen": "./img/IMG-20241022-WA0040.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "Biquinis"
+        },
+        "precio": 210.00
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Camiseta de praia",
+        "imagen": "./img/IMG-20241022-WA0042.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "Biquinis"
+        },
+        "precio": 270.00
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Camiseta de praia",
+        "imagen": "./img/IMG-20241022-WA0043.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "Biquinis"
+        },
+        "precio": 142.00
     }
 ]
