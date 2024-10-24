@@ -40,26 +40,7 @@
         },
         "precio": 120
     },
-    {
-        "id": "abrigo-05",
-        "titulo": "Biquini Rgb",
-        "imagen": "./img/IMG-20241022-WA0032.jpg",
-        "categoria": {
-            "nombre": "NOVOS BIQUINIS",
-            "id": "Novos Biquinis"
-        },
-        "precio": 189
-    },
-    {
-        "id": "camiseta-01",
-        "titulo": "Biquini azul com folhas",
-        "imagen": "./img/IMG-20241022-WA0016.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "Biquinis"
-        },
-        "precio": 200
-    },
+    
     {
         "id": "camiseta-02",
         "titulo": "Biquini do whatsapp",
@@ -84,16 +65,6 @@
         "id": "camiseta-04",
         "titulo": "Biquini de Coco",
         "imagen": "./img/IMG-20241022-WA0021.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "Biquinis"
-        },
-        "precio": 1000
-    },
-    {
-        "id": "camiseta-05",
-        "titulo": "Biquini roxo claro",
-        "imagen": "./img/IMG-20241022-WA0022.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "Biquinis"
