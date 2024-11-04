@@ -3,7 +3,7 @@
 :root {
     --clr-main: #008aed;
     --clr-main-light: #078dc7;
-    --clr-white: #ececec;
+    --clr-white: #f1f1f1;
     --clr-gray: #e2e2e2;
     --clr-red: #961818;
 }
@@ -49,6 +49,13 @@ aside {
 .logo {
     font-weight: 400;
     font-size: 1.3rem;
+}
+
+#logoh{
+    border-radius: 50%;
+    height: 95%;
+    width: 78%;
+    margin-left: 10px;
 }
 
 .menu {
@@ -447,3 +454,4 @@ main {
         grid-template-columns: 1fr;
     }
 }
+
