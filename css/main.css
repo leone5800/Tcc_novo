@@ -353,7 +353,12 @@ main {
     .contenedor-productos {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .logo {
+        font-size: 1.1rem;
+    }
 }
+
+
 
 @media screen and (max-width: 675px) {
     .contenedor-productos {
@@ -361,7 +366,13 @@ main {
     }
 }
 
+
 @media screen and (max-width: 600px) {
+
+    .header-mobile .logo {
+        text-align: center;
+        width: 100%;
+    }
 
     .wrapper {
         min-height: 100vh;
@@ -454,4 +465,11 @@ main {
         grid-template-columns: 1fr;
     }
 }
+#logoh {
+    max-width: 70%; /* Logo menor em telas bem pequenas */
+    margin: 0 auto;
+}
+
+
+
 

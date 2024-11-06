@@ -1,30 +1,45 @@
-// Função para enviar o carrinho para o backend
-function enviarCarrinhoWhatsApp(numeroCliente) {
-    const produtosEnCarrito = JSON.parse(localStorage.getItem("productos-en-carrito")) || [];
+// Função para formatar a lista de produtos em uma mensagem para o WhatsApp
+function gerarMensagemWhatsApp() {
+    if (productosEnCarrito.length === 0) return ""; // Se o carrinho estiver vazio, retorna vazio
 
-    // Formato da requisição para o backend
-    const data = {
-        numero: numeroCliente, // Número do cliente no formato internacional, ex: "+5511999999999"
-        produtos: produtosEnCarrito.map(produto => ({
-            id: produto.id,
-            quantidade: produto.cantidad
-        }))
-    };
+    // Inicia a mensagem com um cumprimento e introdução
+    let mensagem = "Olá! Seu pedido no site está pronto. Confira os itens do seu carrinho:\n\n";
 
-    fetch("http://127.0.0.1:5000/enviar_carrinho", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(data)
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.status === "success") {
-            console.log("Mensagem enviada com sucesso!");
-        } else {
-            console.error("Erro ao enviar a mensagem:", data.message);
-        }
-    })
-    .catch(error => console.error("Erro na requisição:", error));
+    // Itera sobre os produtos no carrinho para adicionar nome e quantidade de cada item
+    productosEnCarrito.forEach(produto => {
+        mensagem += `- ${produto.titulo} (Quantidade: ${produto.cantidad})\n`;
+    });
+
+    // Adiciona o total do pedido
+    const totalCalculado = productosEnCarrito.reduce((acc, produto) => acc + (produto.precio * produto.cantidad), 0);
+    mensagem += `\nTotal: R$${totalCalculado.toFixed(2)}`;
+
+    return mensagem;
+}
+
+// Modifica a função comprarCarrito para incluir o link de WhatsApp com a mensagem gerada
+function comprarCarrito() {
+    // Gera a mensagem do WhatsApp
+    const mensagem = gerarMensagemWhatsApp();
+    if (!mensagem) {
+        alert("Seu carrinho está vazio.");
+        return;
+    }
+
+    // URL do WhatsApp com a mensagem codificada para o envio
+    const telefone = "5515997541602"; // Substitua pelo número desejado
+    const urlWhatsApp = `https://wa.me/${telefone}?text=${encodeURIComponent(mensagem)}`;
+
+    // Limpa o carrinho como anteriormente
+    productosEnCarrito.length = 0;
+    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+
+    // Atualiza a interface do carrinho
+    contenedorCarritoVacio.classList.add("disabled");
+    contenedorCarritoProductos.classList.add("disabled");
+    contenedorCarritoAcciones.classList.add("disabled");
+    contenedorCarritoComprado.classList.remove("disabled");
+
+    // Redireciona para o WhatsApp
+    window.open(urlWhatsApp, "_blank");
 }
