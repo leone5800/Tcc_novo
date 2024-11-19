@@ -466,10 +466,7 @@ main {
     }
 }
 #logoh {
-    max-width: 150px; /* Logo menor em telas bem pequenas */
-    margin: 2px ;
+    max-width: 150px; 
+ 
+    
 }
-
-
-
-
