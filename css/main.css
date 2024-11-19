@@ -467,7 +467,7 @@ main {
 }
 #logoh {
     max-width: 150px; /* Logo menor em telas bem pequenas */
-    margin: 0 auto;
+    margin: 2px ;
 }
 
 
