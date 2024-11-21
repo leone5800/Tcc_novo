@@ -1,37 +1,37 @@
 [
     {
-        "id": "abrigo-01",
-        "titulo": "Biquini Roxo azulado",
+        "id": "Biquini De Onça Azul",
+        "titulo": "Biquini De Onça Azul",
         "imagen": "./img/IMG-20241022-WA0001.jpg",
         "categoria": {
-            "nombre": "BIQUINIS",
-            "id": "Biquinis"
+            "nombre": "BIQUINIS E SUNGAS",
+            "id": "BIQUINIS E SUNGAS"
         },
         "precio": 139.90
     },
     
     {
-        "id": "abrigo-02",
-        "titulo": "Biquini Rosa Brilhante",
+        "id": "Biquini Rosa Florido",
+        "titulo": "Biquini Rosa Florido",
         "imagen": "./img/IMG-20241022-WA0002.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "Biquinis"
+            "nombre": "BIQUINIS E SUNGAS",
+            "id": "BIQUINIS E SUNGAS"
         },
         "precio": 139.90
     },
     {
-        "id": "abrigo-03",
-        "titulo": "Biquini Ciano",
+        "id": "Biquini Azul claro",
+        "titulo": "Biquini Azul claro",
         "imagen": "./img/IMG-20241022-WA0003.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "Biquinis"
+            "nombre": "BIQUINIS E SUNGAS",
+            "id": "BIQUINIS E SUNGAS"
         },
         "precio": 139.90
     },
     {
-        "id": "abrigo-04",
+        "id": "Biquini Preto",
         "titulo": "Biquini Preto",
         "imagen": "./img/IMG-20241022-WA0004.jpg",
         "categoria": {
@@ -42,17 +42,17 @@
     },
     
     {
-        "id": "camiseta-02",
-        "titulo": "Biquini do whatsapp",
+        "id": "Biquini do Verde",
+        "titulo": "Biquini do Verde",
         "imagen": "./img/IMG-20241022-WA0017.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "Biquinis"
+            "nombre": "BIQUINIS E SUNGAS",
+            "id": "BIQUINIS E SUNGAS"
         },
         "precio": 139.90
     },
     {
-        "id": "camiseta-03",
+        "id": "Biquini Rosa",
         "titulo": "Biquini Rosa",
         "imagen": "./img/IMG-20241022-WA0020.jpg",
         "categoria": {
@@ -62,52 +62,52 @@
         "precio": 139.90
     },
     {
-        "id": "camiseta-04",
-        "titulo": "Biquini de Coco",
+        "id": "Biquini detalhe de coco",
+        "titulo": "Biquini detalhe de coco",
         "imagen": "./img/IMG-20241022-WA0021.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "Biquinis"
+            "nombre": "BIQUINIS E SUNGAS",
+            "id": "BIQUINIS E SUNGAS"
         },
         "precio": 169.90
     },
     {
-        "id": "camiseta-06",
+        "id": "Camiseta de praia",
         "titulo": "Camiseta de praia",
         "imagen": "./img/IMG-20241022-WA0036.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "Biquinis"
+            "nombre": "BIQUINIS E Sungas",
+            "id": "BIQUINIS E SUNGAS"
         },
         "precio": 39.90
     },
     {
-        "id": "camiseta-06",
-        "titulo": "Camiseta de praiah",
+        "id": "Biquini florido com azul",
+        "titulo": "Biquini florido com azul",
         "imagen": "./img/IMG-20241022-WA0040.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "Biquinis"
+            "nombre": "BIQUINIS E SUNGAS",
+            "id": "BIQUINIS E SUNGAS"
         },
         "precio": 169.90
     },
     {
-        "id": "camiseta-06",
-        "titulo": "Camiseta de praiah",
+        "id": "Biquini com folhas azul",
+        "titulo": "Biquini com folhas azul",
         "imagen": "./img/IMG-20241022-WA0042.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "Biquinis"
+            "nombre": "BIQUINIS E SUNGAS",
+            "id": "BIQUINIS E SUNGAS"
         },
         "precio": 169.90
     },
     {
-        "id": "camiseta-06",
-        "titulo": "Camiseta de praia",
+        "id": "Biquini Roxo claro",
+        "titulo": "Biquini Roxo claro",
         "imagen": "./img/IMG-20241022-WA0043.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "Biquinis"
+            "nombre": "BIQUINIS E SUNGAS",
+            "id": "BIQUINIS E SUNGAS"
         },
         "precio": 139.90
     }
