@@ -7,7 +7,7 @@
             "nombre": "BIQUINIS",
             "id": "Biquinis"
         },
-        "precio": 156.00
+        "precio": 139.90
     },
     
     {
@@ -18,7 +18,7 @@
             "nombre": "Abrigos",
             "id": "Biquinis"
         },
-        "precio": 156.00
+        "precio": 139.90
     },
     {
         "id": "abrigo-03",
@@ -28,7 +28,7 @@
             "nombre": "Abrigos",
             "id": "Biquinis"
         },
-        "precio": 156.00
+        "precio": 139.90
     },
     {
         "id": "abrigo-04",
@@ -38,7 +38,7 @@
             "nombre": "PROMOÇÕES",
             "id": "Promoções"
         },
-        "precio": 120.00
+        "precio": 1139.90
     },
     
     {
@@ -49,7 +49,7 @@
             "nombre": "Camisetas",
             "id": "Biquinis"
         },
-        "precio": 200.00
+        "precio": 139.90
     },
     {
         "id": "camiseta-03",
@@ -59,7 +59,7 @@
             "nombre": "Novos Biquinis",
             "id": "Novos Biquinis"
         },
-        "precio": 190.00
+        "precio": 139.90
     },
     {
         "id": "camiseta-04",
@@ -69,7 +69,7 @@
             "nombre": "Camisetas",
             "id": "Biquinis"
         },
-        "precio": 125.00
+        "precio": 169.90
     },
     {
         "id": "camiseta-06",
@@ -79,27 +79,27 @@
             "nombre": "Camisetas",
             "id": "Biquinis"
         },
-        "precio": 179.00
+        "precio": 39.90
     },
     {
         "id": "camiseta-06",
-        "titulo": "Camiseta de praia",
+        "titulo": "Camiseta de praiah",
         "imagen": "./img/IMG-20241022-WA0040.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "Biquinis"
         },
-        "precio": 210.00
+        "precio": 169.90
     },
     {
         "id": "camiseta-06",
-        "titulo": "Camiseta de praia",
+        "titulo": "Camiseta de praiah",
         "imagen": "./img/IMG-20241022-WA0042.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "Biquinis"
         },
-        "precio": 270.00
+        "precio": 169.90
     },
     {
         "id": "camiseta-06",
@@ -109,6 +109,6 @@
             "nombre": "Camisetas",
             "id": "Biquinis"
         },
-        "precio": 142.00
+        "precio": 139.90
     }
 ]
