@@ -22,7 +22,7 @@
     },
     {
         "id": "Biquini Azul claro",
-        "titulo": "Biquini Azul claro",
+        "titulo": "Biquini Azul Claro",
         "imagen": "./img/IMG-20241022-WA0003.jpg",
         "categoria": {
             "nombre": "BIQUINIS E SUNGAS",
@@ -63,7 +63,7 @@
     },
     {
         "id": "Biquini detalhe de coco",
-        "titulo": "Biquini detalhe de coco",
+        "titulo": "Biquini Detalhe De Coco",
         "imagen": "./img/IMG-20241022-WA0021.jpg",
         "categoria": {
             "nombre": "BIQUINIS E SUNGAS",
@@ -73,7 +73,7 @@
     },
     {
         "id": "Camiseta de praia",
-        "titulo": "Camiseta de praia",
+        "titulo": "Camiseta de Praia",
         "imagen": "./img/IMG-20241022-WA0036.jpg",
         "categoria": {
             "nombre": "BIQUINIS E Sungas",
@@ -83,7 +83,7 @@
     },
     {
         "id": "Biquini florido com azul",
-        "titulo": "Biquini florido com azul",
+        "titulo": "Biquini Florido com Azul",
         "imagen": "./img/IMG-20241022-WA0040.jpg",
         "categoria": {
             "nombre": "BIQUINIS E SUNGAS",
@@ -93,7 +93,7 @@
     },
     {
         "id": "Biquini com folhas azul",
-        "titulo": "Biquini com folhas azul",
+        "titulo": "Biquini com Folhas Azul",
         "imagen": "./img/IMG-20241022-WA0042.jpg",
         "categoria": {
             "nombre": "BIQUINIS E SUNGAS",
@@ -103,12 +103,22 @@
     },
     {
         "id": "Biquini Roxo claro",
-        "titulo": "Biquini Roxo claro",
+        "titulo": "Biquini Roxo Claro",
         "imagen": "./img/IMG-20241022-WA0043.jpg",
         "categoria": {
             "nombre": "BIQUINIS E SUNGAS",
             "id": "BIQUINIS E SUNGAS"
         },
         "precio": 139.90
+    },
+    {
+        "id": "Sunga azul marinho",
+        "titulo": "Sunga Azul Marinho",
+        "imagen": "./img/Design_sem_nome_20241122_091641_0000.png",
+        "categoria": {
+            "nombre": "BIQUINIS E SUNGAS",
+            "id": "BIQUINIS E SUNGAS"
+        },
+        "precio": 79.90
     }
 ]
